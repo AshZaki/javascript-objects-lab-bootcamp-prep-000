@@ -15,7 +15,7 @@ function deleteFromObjectByKey(object, key){
   var objCopy = Object.assign({}, object);
   console.log(objCopy);
   delete objCopy.key;
-  console.log(objCopy);
+  console.log('deleted key: ', objCopy);
   return objCopy;
 }
 
